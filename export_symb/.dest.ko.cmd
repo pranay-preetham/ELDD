@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/export_symb/dest.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/export_symb/dest.ko /home/pi/DeDrive/export_symb/dest.o /home/pi/DeDrive/export_symb/dest.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/module_para/module_para.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/module_para/module_para.ko /home/pi/DeDrive/module_para/module_para.o /home/pi/DeDrive/module_para/module_para.mod.o;  true

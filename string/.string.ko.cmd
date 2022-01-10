@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/string/string.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/string/string.ko /home/pi/DeDrive/string/string.o /home/pi/DeDrive/string/string.mod.o;  true

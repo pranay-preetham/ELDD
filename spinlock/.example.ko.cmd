@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/spinlock/example.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/spinlock/example.ko /home/pi/DeDrive/spinlock/example.o /home/pi/DeDrive/spinlock/example.mod.o;  true

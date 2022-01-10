@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/export_symb/modules.order := {   echo /home/pi/DeDrive/export_symb/source.ko;   echo /home/pi/DeDrive/export_symb/dest.ko; :; } | awk '!x[$$0]++' - > /home/pi/DeDrive/export_symb/modules.order

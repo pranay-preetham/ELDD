@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/synchronisation/de_drivers.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/synchronisation/de_drivers.ko /home/pi/DeDrive/synchronisation/de_drivers.o /home/pi/DeDrive/synchronisation/de_drivers.mod.o;  true

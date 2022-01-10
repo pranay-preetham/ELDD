@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/chardriverapp/testchardriver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/chardriverapp/testchardriver.ko /home/pi/DeDrive/chardriverapp/testchardriver.o /home/pi/DeDrive/chardriverapp/testchardriver.mod.o;  true

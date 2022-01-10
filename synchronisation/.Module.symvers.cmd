@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/synchronisation/Module.symvers := sed 's/ko$$/o/' /home/pi/DeDrive/synchronisation/modules.order | scripts/mod/modpost -m -a   -o /home/pi/DeDrive/synchronisation/Module.symvers -e -i Module.symvers   -T -

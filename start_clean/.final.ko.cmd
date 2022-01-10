@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/start_clean/final.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/start_clean/final.ko /home/pi/DeDrive/start_clean/final.o /home/pi/DeDrive/start_clean/final.mod.o;  true

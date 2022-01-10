@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/high_resolution_timer/timer_driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/high_resolution_timer/timer_driver.ko /home/pi/DeDrive/high_resolution_timer/timer_driver.o /home/pi/DeDrive/high_resolution_timer/timer_driver.mod.o;  true

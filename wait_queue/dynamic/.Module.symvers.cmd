@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/wait_queue/dynamic/Module.symvers := sed 's/ko$$/o/' /home/pi/DeDrive/wait_queue/dynamic/modules.order | scripts/mod/modpost -m -a   -o /home/pi/DeDrive/wait_queue/dynamic/Module.symvers -e -i Module.symvers   -T -

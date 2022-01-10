@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/wait_queue/dynamic/driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/wait_queue/dynamic/driver.ko /home/pi/DeDrive/wait_queue/dynamic/driver.o /home/pi/DeDrive/wait_queue/dynamic/driver.mod.o;  true

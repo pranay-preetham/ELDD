@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/export_symb/source.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/export_symb/source.ko /home/pi/DeDrive/export_symb/source.o /home/pi/DeDrive/export_symb/source.mod.o;  true

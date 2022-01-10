@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/EXPORT_SYMBOL/AVG_MOD/../ADD_MOD/add.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/EXPORT_SYMBOL/AVG_MOD/../ADD_MOD/add.ko /home/pi/DeDrive/EXPORT_SYMBOL/AVG_MOD/../ADD_MOD/add.o /home/pi/DeDrive/EXPORT_SYMBOL/AVG_MOD/../ADD_MOD/add.mod.o;  true

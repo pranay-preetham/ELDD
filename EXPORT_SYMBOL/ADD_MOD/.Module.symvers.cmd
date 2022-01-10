@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/EXPORT_SYMBOL/ADD_MOD/Module.symvers := sed 's/ko$$/o/' /home/pi/DeDrive/EXPORT_SYMBOL/ADD_MOD/modules.order | scripts/mod/modpost -m -a   -o /home/pi/DeDrive/EXPORT_SYMBOL/ADD_MOD/Module.symvers -e -i Module.symvers   -T -

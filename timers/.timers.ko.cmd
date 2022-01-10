@@ -1,0 +1,1 @@
+cmd_/home/pi/DeDrive/timers/timers.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/DeDrive/timers/timers.ko /home/pi/DeDrive/timers/timers.o /home/pi/DeDrive/timers/timers.mod.o;  true
